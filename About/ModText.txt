@@ -1,0 +1,24 @@
+[h1]Description[/h1]
+This mod will patch the Ideology Biosculpter Pod's Regen cycle to treat Organ Decay!
+
+[h1]Known Issues[/h1]
+No issues found however there is a minor risk of issues once 1.5 is released properly.
+
+[h1]Compatibility[/h1]
+Tested in isolation without issue.
+
+[h1]Future Updates[/h1]
+There are no plans for updates but if this provides too powerful maybe an additional reaserch can be added.
+
+
+[h1]About[/h1]
+This mod has been created by me, SpaceMoth! A mod I quickly put together after reading the update notes for the upcoming 1.5
+
+I will aim to update my mods within a couple weeks of any major update! 
+Please feel free to suggest ideas of additional mods. New mod creation can take some time but I am welcome to ideas. Please note my skills are in scripting and coding, and I have very little ability when it comes to art and assets.
+
+[h1]IDs[/h1]
+[code]
+ID: 3193460140
+Mod ID: Spacemoth.BTOD
+[/code]

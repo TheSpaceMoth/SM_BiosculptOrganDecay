@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Default Organ Replacement
+	<Operation Class="PatchOperationAdd">	
+		<xpath>/Defs/ThingDef[defName="BiosculpterPod"]/comps/li[@Class="CompProperties_BiosculpterPod_HealingCycle"]/bodyPartsToRestore</xpath>
+		<value>
+			<li>Heart</li>	
+			<li>Lung</li>	
+			<li>Kidney</li>	
+			<li>Liver</li>	
+		</value>
+	</Operation>
+	
+		<xpath>/Defs/ThingDef[defName="BiosculpterPod"]/comps/li[@Class="CompProperties_BiosculpterPod_HealingCycle"][compClass="CompBiosculpterPod_RegenerationCycle"]/conditionsToPossiblyCure</xpath>-->
+
+	<!-- Default Condition Removal -->
+	<Operation Class="PatchOperationAdd">	
+		<xpath>/Defs/ThingDef[defName="BiosculpterPod"]/comps/li[compClass="CompBiosculpterPod_RegenerationCycle"]/conditionsToPossiblyCure</xpath>
+		<value>
+			<li>OrganDecay</li>			
+			<li MayRequire="Ludeon.RimWorld.Anomaly">OrganDecayCreepjoiner</li>
+		</value>
+	</Operation>
+	
+</Patch>
